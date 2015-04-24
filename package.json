@@ -1,0 +1,28 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Mean Tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.0.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-junit-reporter": "^0.2.2"
+  },
+  "bin": {
+    "karma": "./node_modules/karma-cli/bin/karma"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-jasmine": "jasmine-node --version",
+    "test-karma": "karma start karma.conf.js  --single-run"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Art Hundiak",
+  "license": "MIT"
+}
